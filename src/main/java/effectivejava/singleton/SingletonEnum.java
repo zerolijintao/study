@@ -1,4 +1,4 @@
-package effectivejava.singleton;
+package main.java.effectivejava.singleton;
 
 // Enum singleton - the preferred approach
 public enum SingletonEnum {

@@ -1,4 +1,4 @@
-package concurrency.memoizer;
+package main.java.concurrency.memoizer;
 
 import java.util.concurrent.*;
 

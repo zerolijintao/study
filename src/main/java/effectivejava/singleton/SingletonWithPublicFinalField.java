@@ -1,4 +1,4 @@
-package effectivejava.singleton;
+package main.java.effectivejava.singleton;
 
 // Singleton with public final field
 public class SingletonWithPublicFinalField {

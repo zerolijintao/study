@@ -48,5 +48,9 @@ public class StreamTest {
         System.out.println(result);
 
         File[] hiddenFiles = new File(".").listFiles(File::isHidden);
+
+
+        int i = 0;
+
     }
 }

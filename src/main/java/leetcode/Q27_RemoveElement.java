@@ -8,7 +8,7 @@ package leetcode;
 
 你不需要考虑数组中超出新长度后面的元素。
  */
-public class RemoveElement_Q27 {
+public class Q27_RemoveElement {
 
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -26,7 +26,7 @@ public class RemoveElement_Q27 {
     }
 
     public static void main(String[] args) {
-        RemoveElement_Q27 s = new RemoveElement_Q27();
+        Q27_RemoveElement s = new Q27_RemoveElement();
         int[] nums = {3, 2, 2, 3};
         int num = s.removeElement(nums, 3);
         for (int i = 0; i < num; i++) {

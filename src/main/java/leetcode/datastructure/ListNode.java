@@ -1,10 +1,10 @@
 package leetcode.datastructure;
 
-public class ListNode<T> {
-    public T val;
+public class ListNode {
+    public int val;
     public ListNode next;
 
-    public ListNode(T x) {
+    public ListNode(int x) {
         val = x;
     }
 }

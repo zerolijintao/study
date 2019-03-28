@@ -2,9 +2,9 @@ package leetcode;
 
 import leetcode.datastructure.ListNode;
 
-public class AddTwoNumbers_Q2 {
+public class Q2_AddTwoNumbers {
 
-        public ListNode addTwoNumbers(ListNode<Integer> l1, ListNode<Integer> l2) {
+        public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             if (l1 == null) {
                 return l2;
             }
@@ -33,13 +33,13 @@ public class AddTwoNumbers_Q2 {
         }
 
     public static void main(String[] args) {
-        ListNode<Integer> l1 = new ListNode<>(2);
+        ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next = new ListNode(3);
-        ListNode<Integer> l2 = new ListNode<>(5);
+        ListNode l2 = new ListNode(5);
         l2.next = new ListNode(6);
         l2.next = new ListNode(4);
-        AddTwoNumbers_Q2 s = new AddTwoNumbers_Q2();
+        Q2_AddTwoNumbers s = new Q2_AddTwoNumbers();
         ListNode listNode = s.addTwoNumbers(l1, l2);
         System.out.println(listNode);
 

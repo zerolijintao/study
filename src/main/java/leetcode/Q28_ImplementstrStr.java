@@ -7,7 +7,7 @@ package leetcode;
 输入: haystack = "aaaaa", needle = "bba"
 输出: -1
  */
-public class ImplementstrStr_Q28 {
+public class Q28_ImplementstrStr {
     public int strStr(String haystack, String needle) {
         if (needle == null || "".equals(needle)) {
             return 0;
@@ -46,7 +46,7 @@ public class ImplementstrStr_Q28 {
 
     public static void main(String[] args) {
         String s= "hello";
-        ImplementstrStr_Q28 q = new ImplementstrStr_Q28();
+        Q28_ImplementstrStr q = new Q28_ImplementstrStr();
         System.out.println(q.strStr(s,"ll"));
     }
 }

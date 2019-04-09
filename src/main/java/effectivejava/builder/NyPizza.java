@@ -1,4 +1,4 @@
-package main.java.effectivejava.builder;
+package effectivejava.builder;
 
 import java.util.Objects;
 

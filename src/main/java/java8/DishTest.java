@@ -1,8 +1,6 @@
 package java8;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import static java.util.stream.Collectors.toList;
 
@@ -19,7 +17,9 @@ public class DishTest {
             new Dish("salmon", false, 450, Dish.Type.FISH));
 
 
-    public List<Dish> getMEATLimit2() {
+    public List<Dish> getMEATLimit2() {int calories = menu.stream()
+            .map(Dish::getCalories)
+            .reduce(0, Integer::sum);
         return menu.stream().filter(t -> t.getType().equals(Dish.Type.MEAT)).limit(2).collect(toList());
     }
 
@@ -71,6 +71,11 @@ public class DishTest {
         System.out.println(numbers.stream().reduce(0, (a, b) -> a + b));
         Integer max = numbers.stream().reduce(0, (a, b) -> Math.max(a, b));
         System.out.println(max);
+    }
+
+    public void testError() {
+        Set<Dish> nameSet = new HashSet<>();
+        menu.stream().forEach(t->nameSet.add(t));
     }
 
     public int getMenuNum() {

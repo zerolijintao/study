@@ -1,4 +1,4 @@
-package main.java.concurrency.exector;
+package concurrency.exector;
 
 /**
  * Created by panny on 2018/2/26.

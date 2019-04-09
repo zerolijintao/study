@@ -1,4 +1,4 @@
-package main.java.concurrency.memoizer;
+package concurrency.memoizer;
 
 /**
  * Created by panny on 2018/2/26.

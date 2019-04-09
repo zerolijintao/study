@@ -1,4 +1,6 @@
-package main.java.concurrency.memoizer;
+package concurrency.memoizer;
+
+import concurrency.memoizer.Computable;
 
 import java.util.concurrent.*;
 

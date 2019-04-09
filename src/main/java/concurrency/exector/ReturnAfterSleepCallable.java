@@ -1,4 +1,4 @@
-package main.java.concurrency.exector;
+package concurrency.exector;
 
 import java.util.concurrent.Callable;
 

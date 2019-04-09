@@ -1,4 +1,4 @@
-package main.java.effectivejava.singleton;
+package effectivejava.singleton;
 
 // Singleton with static factory
 public class SingletonWithStaticFactory {

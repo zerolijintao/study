@@ -1,4 +1,4 @@
-package main.java.concurrency.memoizer;
+package concurrency.memoizer;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.effectivejava.builder;
+package effectivejava.builder;
 
 public class Calzone extends Pizza {
     private final boolean sauceInside;

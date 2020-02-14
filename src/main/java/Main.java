@@ -12,8 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-        
         ReentrantLock lock = new ReentrantLock(true);
         lock.lock();
         System.out.println("go");
